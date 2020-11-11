@@ -8,6 +8,11 @@
 
 .chat__messages {
     flex: 1;
+    overflow: auto;
+}
+
+.chat__messages::-webkit-scrollbar {
+    display: none;
 }
 
 .chat__input {
@@ -19,7 +24,7 @@
     border-radius: 5px;
     margin: 20px;
     border-top: 1px solid gray;
-    background-color: #474b53;
+    background-color: #2f3135;
 }
 
 .chat__input > form > input {
